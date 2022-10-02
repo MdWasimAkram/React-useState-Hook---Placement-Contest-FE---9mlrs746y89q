@@ -15,9 +15,11 @@ const App=()=>{
      }
     return(
     <div>
-    <input id= "" type="text" value= {input}
+    <input id= ""
+            type="text" value= {input}
   onChange= {handleChange}/>
-   <button id= "" onClick{handleSubmit}>Submit </button>
+   <button id= "" 
+  onClick{handleSubmit}>Submit </button>
  <p> { term}</p>
  </div>
  );
