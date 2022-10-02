@@ -16,7 +16,7 @@ const App=()=>{
     return(
     <div>
     <input id= ""
-            type="text" value= {input}
+            type="text"value= {input}
   onChange= {handleChange}/>
    <button id= "" 
   onClick{handleSubmit}>Submit </button>
